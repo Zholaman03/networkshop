@@ -1,0 +1,17 @@
+.showPassword{
+    top: 30%;
+    right: 1%;
+}
+
+
+
+@media (max-width: 768px) {
+    form {
+      width: 95%;
+    }
+  }
+  @media (min-width: 768px) {
+    form {
+      width: 70%;
+    }
+  }

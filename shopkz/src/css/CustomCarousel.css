@@ -1,0 +1,32 @@
+.carousel-control-prev, .carousel-control-next {
+    width: 50px; /* Ширина кнопок */
+    height: 50px; /* Высота кнопок */
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон кнопок */
+    border: none; /* Убираем границу */
+    position: unset;
+   /* Корректируем вертикальное положение */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: transparent; /* Фон иконок */
+    background-size: 100%, 100%; /* Размер иконок */
+    background-repeat: no-repeat; /* Убираем повторение */
+    width: 30px; /* Ширина иконок */
+    height: 30px; /* Высота иконок */
+  }
+  
+  /* Цвет стрелок */
+  .carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"%3E%3Cpath d="M15.88 18.29l-6-6a1.003 1.003 0 0 1 0-1.41l6-6a1.003 1.003 0 0 1 1.41 1.41L12.71 12l4.59 4.59a1.003 1.003 0 0 1-1.42 1.42z" fill="%23fff"/%3E%3C/svg%3E');
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"%3E%3Cpath d="M8.12 5.71l6 6a1.003 1.003 0 0 1 0 1.41l-6 6a1.003 1.003 0 0 1-1.41-1.41L11.29 12 6.71 7.41a1.003 1.003 0 0 1 1.42-1.42z" fill="%23fff"/%3E%3C/svg%3E');
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Цвет фона кнопок при наведении */
+  }
+  

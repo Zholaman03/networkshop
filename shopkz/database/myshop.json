@@ -1,0 +1,44 @@
+{
+  "goods": [
+    {
+      "id": "B12",
+      "name": "Acer laptops",
+      "desc": "RAM: 8гб, SSD: 520gbvcxvxvxcvx",
+      "price": "213981",
+      "color": "graydsf",
+      "img": "/static/media/acer.118b299cd1524f22b5e7.jpg",
+      "categoryId": "3er"
+    },
+    {
+      "id": "C12",
+      "name": "Samsung s202s",
+      "desc": "RAM: 16гб, memory: 248gb dsfsfsd sfdsfsasddsdasd",
+      "price": "349991",
+      "color": "red",
+      "img": "/static/media/samsung.3df22e8048f9ef8940f5.jpg",
+      "categoryId": "3er"
+    },
+    {
+      "id": "c2eb",
+      "name": "222",
+      "desc": "222",
+      "price": "4",
+      "color": "2222",
+      "img": ""
+    }
+  ],
+  "categories": [
+    {
+      "id": "3er",
+      "name": "Электроника"
+    },
+    {
+      "id": "tr4",
+      "name": "Одежда"
+    },
+    {
+      "id": "5tw",
+      "name": "Книги"
+    }
+  ]
+}

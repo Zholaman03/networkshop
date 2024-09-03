@@ -1,0 +1,58 @@
+.product-images {
+    width: 200px; /* Суреттің ені */
+    height: 200px; /* Суреттің биіктігі */
+    object-fit: contain; /* Суреттің форматтауға сай келуі */
+    display: block;
+    margin: 0 auto; /* Суреттің ортасына қою */
+  }
+
+.product-image{
+    width: 450px; /* Суреттің ені */
+    height: 450px; /* Суреттің биіктігі */
+    object-fit: contain; /* Суреттің форматтауға сай келуі */
+    display: block;
+    
+}
+.product-description{
+  margin-left: 15px;
+}
+
+.desc{
+  height: 60px;
+}
+
+.nav-len{
+  width: 90%;
+}
+
+.custom-width {
+  max-width: 100%;
+  width: 100%; /* Adjust width as needed */
+}
+
+.form-control::placeholder {
+  color: #6c757d; /* Customize the placeholder text color */
+  opacity: 1; /* Ensure placeholder text is fully opaque */
+}
+
+
+.custom-dropdown-menu {
+  background-color: #343a40; /* Темный фон */
+  color: #ffffff; /* Белый текст */
+}
+
+.custom-dropdown-menu .dropdown-item {
+  color: #ffffff; /* Белый текст для пунктов меню */
+}
+
+.custom-dropdown-menu .dropdown-item:hover {
+  background-color: #495057; /* Цвет фона при наведении */
+  color: #ffffff; /* Белый текст при наведении */
+}
+
+
+/* .link-tel{
+  margin-left: 10px;
+} */
+
+/* slide show */
